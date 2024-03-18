@@ -1,0 +1,106 @@
+section .url_wrapper{
+}
+ .url-background {
+  background-image: url('../../images/Group5.png'), url('../../images/Group4.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;  
+  background-size: auto, auto;  
+  height: 100%;  
+  width: 100%;
+  padding: 40px ;
+  
+  /* padding: 20px 10px 5px 15px; */
+}
+ 
+
+
+
+
+
+
+.url-container{
+background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+/* padding: 60px; */
+height: 430px;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.url-container img{
+    height: 120px;
+}
+
+
+.url-box {
+  padding: 42px 42px 24px 42px;
+}
+
+form p{
+  color: #0065fe;
+  font-size: 14px;
+}
+.url-header {
+  height: 345px;
+  width: 476px;
+  border-radius: 12px;
+  padding-top: 5px;
+  /* margin-top: 60px; */
+  margin: 1px auto 0;
+  background-color: rgba(255, 255, 255, 1);
+;
+}
+.url-box input {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 12px 8px 12px;
+  width:  392px;
+  height:  50px;
+  border-radius: 12px;
+  gap: 10px;
+  border: 1px solid rgba(50, 132, 255, 1);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+}
+
+.url-box button{
+    background-color: #005ae2;
+    width: 392px;
+    height: 48px;
+    border-radius: 100px;
+    padding: 12px 24px 12px 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+ ;
+}
+.new-url input{
+height: 48px;
+gap: 20px;
+font-size: 12px;
+line-height: 18px;
+padding: 8px 12px 8px 12px;
+}
+
+.new-url{
+    /* background-color: #005ae2; */
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.new-url .url-domain{
+    width: 202px;
+}
+
+.new-url .url-alias{
+    width: 178px;
+}
+
+
+

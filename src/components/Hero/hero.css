@@ -1,0 +1,90 @@
+.hero{
+      background-image: linear-gradient(#f7f1de, #ffffff);
+
+}
+
+.hero_main {
+  width: 100%;
+  margin: 0.5rem auto 4rem;
+  max-width: 1120px;
+}
+
+.hero-content {
+  margin: 3rem 0;
+}
+h1 {
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+span {
+  color: #0065fe;
+}
+.hero-content > img {
+  width: 250px;
+  align-items: center;
+  display: flex;
+  margin: -30px auto;
+}
+
+.hero p {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-log {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  margin: 20px auto;
+  align-items: center;
+
+}
+
+.log-btn {
+  font-family: gilroy-semibold;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 260px;
+  gap: 10px;
+  height: 50px;
+  border-radius: 100px;
+  border-radius: 100px;
+  background: rgba(0, 101, 254, 1);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.log-lnk {
+  font-family: Gilroy-SemiBold;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0065fe;
+}
+
+.fig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.platform > img {
+  width: 100%;
+  max-width: 1440px;
+}

@@ -1,0 +1,134 @@
+section .main_faqwrapper{
+    /* height: 100%; */
+}
+
+ .accordion_wrapper{
+    
+}
+
+/* .main_faqwrapper .mentors_text{
+    background-color: rgb(238, 218, 218);
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+} */
+
+
+.accordion_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  align-items: center;
+  margin: 5px auto 0;
+}
+.accordion_two {
+  width: 100%;
+  color: black;
+
+  background-color: #fff;
+}
+/* very important */
+.accordion_three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 28px;
+  font-family: Gilroy-Medium;
+font-size: 14px;
+
+}
+
+.accordion_four {
+      padding: 8px 28px;
+
+font-size: 14px;
+  height: auto;
+  max-height: 9999px;
+  width: 100%;
+  /* transition: all 1.0s cubic-bezier(1, 1, 0, 0); */
+}
+
+.accordion_four:hover {
+
+  transform: scale(1.0);
+  box-shadow: 0 0 40px -10px rgba(8, 8, 6, 0.25);
+}
+.accordion_three h2:hover {
+
+  transform: scale(1);
+  /* box-shadow: 0 0 40px -10px rgba(8, 8, 6, 0.25); */
+  transition: (1.0s);
+}
+
+.accordion_five {
+
+
+  background-color: rgb(217, 217, 221);
+  max-height: 0;
+  overflow: hidden;
+  /* transition: all 0.5s cubic-bezier(0, 1, 0, 1); */
+}
+
+
+
+
+
+
+
+.faq_wrap{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* height: 269px; */
+    background: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0) 100%);
+width: 100%;
+margin: 0 auto;
+text-align: center;
+}
+
+.faq_container{
+    /* width: 806px;
+    height: 137px; */
+
+
+    background-image: url('../../images/Group5.png'), url('../../images/Group4.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right top;  
+  background-size: auto, auto;  
+  height: 100%;  
+  width: 100%;
+}
+.faq_container h1{
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Gilroy-Bold';
+}
+
+.faq_container button{
+    /* margin-left: 0.5rem; */
+  padding: 12px, 24px, 12px, 24px;
+  background-color: rgba(0, 101, 254, 1);
+  width: 200px;
+  height: 48px;
+  border-radius: 100px;
+  color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  align-items: center;
+  margin: 16px auto;
+  display: flex;
+}
+.faq_last_section{
+      color: rgba(255, 255, 255, 1);
+
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+
+

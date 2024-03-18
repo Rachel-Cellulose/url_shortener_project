@@ -1,0 +1,124 @@
+.features {
+  background: rgba(249, 251, 253, 1);
+  text-align: center;
+  height: 250px;
+  margin: 0 auto;
+}
+
+
+.features .container{
+    display: flex;
+    margin: 0 auto ;
+    align-items: center;
+      width: 100vw;
+
+}
+
+.container .text{
+  width: 300px;
+  margin-top: 0;
+}
+.features h1 {
+  font-size: 30px;
+  width: 120px;
+  line-height: 60px;
+  text-align: left;
+  gap: 20px;
+}
+
+.box{
+  width: 140px;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+
+}
+.features p {
+color: rgba(20, 20, 20, 1);
+}
+
+.mini-container{
+  /* background-color: red; */
+}
+
+.mini {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 6rem 1rem 3rem 3rem;
+  max-width: 1440px;
+  width: 86%;
+  margin: auto;
+}
+
+.mini-copy {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+.mini-copy h4 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mini-copy > div {
+  display: flex;
+  align-items: center;
+}
+
+.mini-copy p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 1.5rem 5rem 1.5rem 1.8rem;
+}
+
+.mini-item {
+  text-align: left;
+}
+
+.mini-item h5 {
+  font-family: Gilroy-SemiBold;
+  font-size: 32px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 2rem 0 1rem;
+}
+
+.mini-item img{
+  width: 10px;
+  height: 12px;
+  /* background-color: rgba(50, 132, 255, 0.13); */
+  border-radius: 100px;
+;
+}
+
+.line .image-containe img{
+  background-color: green;
+}
+.mini-item p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0 0 4rem 0;
+}
+
+.line {
+  margin-right: 0.8rem;
+}
+
+.line img{
+  width: 6px;
+  height: 46px;
+  /* background: rgba(50, 132, 255, 0.13); */
+  background-color: rgb(24, 1, 1);
+
+}

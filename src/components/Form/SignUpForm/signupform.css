@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Medium';
+}
+
+.signup-form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    /* background-color: purple; */
+}
+.forms{
+    width: 100vw;
+    background: rgb(6, 225, 225);
+}
+
+.form_main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+.form-content h2{
+    /* font-size: 14px; */
+    font-family: Gilroy-Medium;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+form{
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 2px solid rgba(0, 90, 226, 1);
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.field img{
+    width: 18px;
+    height: 10px;
+}
+.eye-icon img{
+    background-color: red;
+
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 8px;
+    cursor: pointer;
+    padding: 5px;
+    width: 26px;
+    height: 20px
+    ;
+}
+.field button{
+    color: #fff;
+    background-color: rgba(0, 90, 226, 1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.field button:hover{
+    background-color: #016dcb;
+}
+.form-link{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content{
+    justify-content: center;
+}
+
+.form_text p{
+    color:  rgba(160, 177, 192, 1);
+}
+.text_note{
+    color: rgba(92, 111, 127, 1);
+;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.media-options{
+    width: 140px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    color: #fff;
+    /* background-color: rgba(0, 90, 226, 1); */
+}
+.apple-img{
+    height: 28px;
+    width: 28px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img.apple-img,
+img.google-img{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+img.google-img,
+img.apple-img{
+    height: 16px;
+    width: 16px;
+    object-fit: cover;
+}
+a.google{
+        background-color: rgba(0, 90, 226, 1);
+
+}
+a.google span{
+    font-weight: 500;
+    opacity: 0.6;
+    color: #232836;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+}

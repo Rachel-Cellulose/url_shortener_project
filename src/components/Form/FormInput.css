@@ -1,0 +1,39 @@
+/* FormInput.css */
+
+.formInput {
+  margin-bottom: 35px; 
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+
+.formInput label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+.formInput input {
+  width: 100%; 
+  padding: 8px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  box-sizing: border-box; 
+}
+
+.formInput input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #007bff; /* Change border color when input is focused */
+}
+
+
+.formInput span{
+    font-size: 10px;
+    color: red;
+    text-align: left;
+    display: none;
+}
+
+input:invalid[focused="true"] ~ span{
+    display: block;
+}

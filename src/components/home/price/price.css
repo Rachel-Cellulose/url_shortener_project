@@ -1,0 +1,166 @@
+.price{
+  margin-top: 45%;
+}
+
+.price-hero {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.price-hero h4 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.price-hero p {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.price-choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choice .h5 {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.choice h3 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.choice p {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.choice ul {
+  /* list-style-image: url(/resources/check-circle.svg); */
+  list-style-position: inside;
+}
+
+.choice li {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.basic {
+  border: solid #005ae2 0.4px;
+  border-radius: 10px 0 0 10px;
+  margin-right: -1px;
+  padding: 1.5rem 3.5rem 2rem 4.5rem;
+}
+
+.teams {
+  border: solid #005ae2 0.4px;
+  border-radius: 0 10px 10px 0;
+  margin-left: -1px;
+  padding: 1.5rem 4.5rem 2rem 3.5rem;
+}
+.choice-main {
+  color: #ffffff;
+  background-color: #1e3448;
+  border-radius: 10px;
+  padding: 6rem 5rem 8rem;
+}
+
+.choice-main .h5 {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.choice-main h3 {
+  font-family: Gilroy-Bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.choice-main p {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.choice-main li {
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0.5rem 0.5rem 0.7rem 0;
+  /* margin: 2px 8px 4px 24px; */
+}
+
+.choice-main ul {
+  /* list-style-image: url(/resources/check-circle-white.svg); */
+  list-style-position: inside;
+}
+
+.choice img {
+  /* display: inline-flex; */
+  width: 16px;
+  height: 12px;
+  background-color: #005ae2;
+}
+
+.choice-main img{
+  width: 16px;
+  height: 12px;
+  background-color: #005ae2;
+}
+.price-log {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  margin: auto;
+}
+
+.custom-price {
+  margin-right: 0.5rem;
+  padding: 15px 24px;
+}
+
+.select-price {
+  margin-left: 0.5rem;
+  padding: 16px 46px;
+}
