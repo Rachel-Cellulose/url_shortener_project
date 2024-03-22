@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
 import { useState } from "react";
-// import Footer from "../common/footer/Footer";
-import LogIn from '../../home/login/LogIn';
+import { initializeApp } from "firebase/app";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+// import LogIn from '../../home/login/LogIn';
 import FormInput from '../FormInput';
 import { Link } from "react-router-dom";
-import eye from "../../images/eye-vector.png";
-
+// import eye from "../../images/eye-vector.png";
 import google from "../../images/google.png";
 import apple from "../../images/Path.png";
 import './signupform.css';
-
+import {db} from '../../../firebase';
+import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
 
 const SignUpForm = () => {
   const [values, setValues] = useState({
@@ -64,29 +65,41 @@ const SignUpForm = () => {
     },
   ];
 
-  console.log("re-rendered");
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    if(values){
+     await addDoc(collection(db, "form"),{
+        email: values,
+        timestamp: serverTimestamp(),
+      })
+setValues({
+      username: "",
+      email: "",
+      password: "",
+      confirmPassword: "",
+    });    }
   };
-
+  
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value });
   };
 
-  console.log(values);
+  console.log(values)
+  
+  
+
   return (
     <div className="container form">
       <div className="form form">
         <div className="form-content">
           <form onSubmit={handleSubmit}>
-            <h2>Sign Up withhhhhhh</h2>
+            <h2>Sign Up with</h2>
 
             <div className="form_main">
               <div className="media-options">
                 <a href="#" className="field google">
                   <img src={google} alt="" className="google-img" />
-                  <span>Google</span>
+                  Google
                 </a>
               </div>
 
@@ -109,7 +122,7 @@ const SignUpForm = () => {
             ))}
 
             <div className="field button-field">
-              <button>Sign up with Email</button>
+              <button type="submit" id='signUp'>Sign up with Email</button>
             </div>
             <div className="form-link">
               <span>
@@ -130,7 +143,11 @@ const SignUpForm = () => {
           </form>
         </div>
       </div>
+
+
+      
     </div>
   );
 };
-export default SignUpForm
+
+export default SignUpForm;

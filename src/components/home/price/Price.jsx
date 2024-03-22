@@ -8,7 +8,7 @@ const Price = () => {
   return (
     <>
         
-          <section className="price">
+          <section className="price" id="price">
             <div>
               <div className="price-hero">
                 {/* <img src={Line70} alt="" className="line" /> */}

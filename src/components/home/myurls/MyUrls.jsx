@@ -9,7 +9,7 @@ const MyUrls = ({ setInputValue }) => {
     setValue("");
   }
   return (
-    <section>
+    <section id="myurls">
       <div className="url-container">
         <div className="url-background">
           <div className="url-header">

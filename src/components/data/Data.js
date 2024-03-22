@@ -13,7 +13,7 @@ export const nav = [
   },
   {
     text: "Pricing",
-    path: "/pricing",
+    path: "/price",
   },
   {
     text: "Analytics",

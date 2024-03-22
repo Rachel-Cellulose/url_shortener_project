@@ -10,7 +10,7 @@ import activity from "../../images/activity.png";
 const Features = () => {
   return (
     <>
-      <section className="features padding">
+      <section className="features padding" id="features">
         <div className="container">
           <div>
             <h1 className="text">
